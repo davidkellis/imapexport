@@ -1,0 +1,6 @@
+/imapexport
+/imapexport.exe
+*.zip
+*.mbox
+.imapexport-*.partial
+.imapexport-message-*
