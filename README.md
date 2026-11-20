@@ -4,10 +4,13 @@
 
 ## Build and run
 
-Install Go 1.26 or later, then build from this directory.
+Install Go 1.26 or later, then run `just build` from this directory to create `./imapexport`. Use `just install` to build and install the command into `GOBIN`, which defaults to the first `GOPATH` entry's `bin` directory. Add that directory to your `PATH` to run `imapexport` from anywhere.
+
+You can also run the Go commands directly.
 
 ```sh
 go build -o imapexport .
+go install .
 ```
 
 Use the incoming IMAP server hostname and username from your mail provider's settings. Replace these example values with yours.
